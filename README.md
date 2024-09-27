@@ -8,7 +8,6 @@ This is a web-based ERP (Enterprise Resource Planning) system built using PHP an
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 
 ## Features
 - Customer management
@@ -66,9 +65,3 @@ Follow these steps to set up the application in your local environment:
 ## Usage
 - Follow the prompts in the web application to register customers, manage items, and generate reports.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-For any questions or feedback, feel free to contact:
-- Your Name: [your.email@example.com](mailto:your.email@example.com)
