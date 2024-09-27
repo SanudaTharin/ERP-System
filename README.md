@@ -20,7 +20,6 @@ Before you begin, ensure you have met the following requirements:
 - PHP (version 7.4 or higher)
 - MySQL (version 5.7 or higher)
 - A web server (e.g., Apache, Nginx)
-- Composer (optional, for dependency management)
 
 ## Installation
 
