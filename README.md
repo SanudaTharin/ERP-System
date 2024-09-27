@@ -46,20 +46,14 @@ Follow these steps to set up the application in your local environment:
      $database = 'erp_system'; // Your database name
      ```
 
-4. **Install dependencies (if any)**
-   - If you are using Composer for dependency management, run:
-     ```bash
-     composer install
-     ```
-
-5. **Start the web server**
+4. **Start the web server**
    - If you're using a built-in PHP server, you can start it by running:
      ```bash
      php -S localhost:8000
      ```
    - Otherwise, configure your local web server to point to the project directory.
 
-6. **Access the application**
+5. **Access the application**
    - Open your web browser and navigate to `http://localhost:8000` (or the configured URL for your web server).
 
 ## Usage
