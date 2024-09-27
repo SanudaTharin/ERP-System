@@ -35,7 +35,13 @@ Follow these steps to set up the application in your local environment:
    - Create a new MySQL database named `erp_system`.
    - Import the provided SQL scripts in the `sql` folder to create the necessary tables and initial data.
 
-3. **Configure database connection**
+3. **Create the Database**
+
+   Create a new database for the application. You can do this using the MySQL command line or a tool like phpMyAdmin.
+
+   Run the SQL commands in the provided sql file to create the necessary tables and structure.
+
+4. **Configure database connection**
    - Open the `includes/db_connect.php` file.
    - Update the database connection settings:
      ```php
@@ -45,14 +51,14 @@ Follow these steps to set up the application in your local environment:
      $database = 'erp_system'; // Your database name
      ```
 
-4. **Start the web server**
+5. **Start the web server**
    - If you're using a built-in PHP server, you can start it by running:
      ```bash
      php -S localhost:8000
      ```
    - Otherwise, configure your local web server to point to the project directory.
 
-5. **Access the application**
+6. **Access the application**
    - Open your web browser and navigate to `http://localhost:8000` (or the configured URL for your web server).
 
 ## Usage
